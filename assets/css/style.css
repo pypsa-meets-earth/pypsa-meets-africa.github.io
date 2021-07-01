@@ -337,8 +337,12 @@ h6 {
 #hero {
     width: 100%;
     padding: 0 0 0 0;
-    background: #213b52;
-    background: linear-gradient(180deg, #213b52 0%, #213c54 35%, #204564 100%);
+    /* background: #213b52; */
+    /* background: linear-gradient(180deg, #213b52 0%, #213c54 35%, #204564 100%); */
+    background: linear-gradient(67.4deg, #E95828 17.28%, #FE851D 46.61%, #FEC33B 89.77%);
+
+
+
 }
 
 #hero h1 {
@@ -346,12 +350,12 @@ h6 {
     font-size: 48px;
     font-weight: 700;
     line-height: 56px;
-    color: #d2e0ed;
+    color: black;
     font-family: "Poppins", sans-serif;
 }
 
 #hero h2 {
-    color: #ffffff;
+    color: #6b311a;
     margin-bottom: 30px;
     font-size: 22px;
 }

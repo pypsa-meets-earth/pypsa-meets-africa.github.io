@@ -5,16 +5,16 @@ tsParticles.load("tsparticles", {
         events: {
             onClick: {
                 enable: false,
-                mode: "bubble"
+                mode: "push"
             },
-            onDiv: {
-                elementId: "repulse-div",
-                enable: false,
-                mode: "repulse"
-            },
+            // onDiv: {
+            //     elementId: "repulse-div",
+            //     enable: false,
+            //     mode: "repulse"
+            // },
             onHover: {
                 enable: true,
-                mode: "grab",
+                mode: "bubble",
                 parallax: {
                     enable: false,
                     force: 2,
@@ -27,12 +27,12 @@ tsParticles.load("tsparticles", {
             bubble: {
                 distance: 40,
                 duration: 2,
-                opacity: 8,
+                opacity: 1,
                 size: 10,
                 speed: 3
             },
             connect: {
-                distance: 80,
+                distance: 800,
                 lineLinked: {
                     opacity: 0.5
                 },
@@ -63,16 +63,18 @@ tsParticles.load("tsparticles", {
     },
     particles: {
         color: {
-            value: ["#4285f4", "#34A853", "#FBBC05", "#EA4335"]
+            // // value: ["#4285f4", "#34A853", "#FBBC05", "#EA4335"]
+            value: ["#000000"]
+
         },
         lineLinked: {
             blink: false,
-            color: "random",
+            color: "#E95828",
             consent: false,
-            distance: 40,
+            distance: 60,
             enable: true,
-            opacity: 0.8,
-            width: 1
+            opacity: 1,
+            width: 2
         },
         move: {
             attract: {
@@ -87,7 +89,7 @@ tsParticles.load("tsparticles", {
             enable: true,
             outMode: "bounce",
             random: false,
-            speed: 1,
+            speed: 0.7,
             straight: false
         },
         number: {
@@ -96,11 +98,11 @@ tsParticles.load("tsparticles", {
                 area: 2000
             },
             limit: 0,
-            value: 200
+            value: 100
         },
         opacity: {
             animation: {
-                enable: true,
+                enable: false,
                 minimumValue: 0.3,
                 speed: 2,
                 sync: false
@@ -109,26 +111,26 @@ tsParticles.load("tsparticles", {
             value: 0.8
         },
         shape: {
-            character: {
-                fill: false,
-                font: "Verdana",
-                style: "",
-                value: "*",
-                weight: "400"
-            },
-            image: {
-                height: 500,
-                replaceColor: true,
-                src: "https://particles.js.org/images/github.svg",
-                width: 500
-            },
+            // character: {
+            //     fill: false,
+            //     font: "Verdana",
+            //     style: "",
+            //     value: "*",
+            //     weight: "400"
+            // },
+            // image: {
+            //     height: 500,
+            //     replaceColor: true,
+            //     src: "https://particles.js.org/images/github.svg",
+            //     width: 500
+            // },
             polygon: {
-                sides: 5
+                sides: 3
             },
-            stroke: {
-                color: "#000000",
-                width: 0
-            },
+            // stroke: {
+            //     color: "#000000",
+            //     width: 1
+            // },
             type: "circle"
         },
         size: {
@@ -148,7 +150,7 @@ tsParticles.load("tsparticles", {
                 polygon: {
                     draw: {
                         enable: true,
-                        lineColor: "rgba(255,255,255,0.3)",
+                        lineColor: "rgba(0,0,0,0.4)",
                         lineWidth: 5
                     },
                     move: {
@@ -167,7 +169,7 @@ tsParticles.load("tsparticles", {
                 polygon: {
                     draw: {
                         enable: true,
-                        lineColor: "rgba(255,255,255,0.3)",
+                        lineColor: "rgba(0,0,0,0.4)",
                         lineWidth: 5
                     },
                     move: {
