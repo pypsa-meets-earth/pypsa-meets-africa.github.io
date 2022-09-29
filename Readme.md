@@ -1,4 +1,4 @@
-# PyPSA meets Africa website
+# PyPSA meets Africa website (Archived, rebranded to PyPSA meets Earth https://pypsa-meets-earth.github.io/)
 
 The "PyPSA meets Africa" website can be used as template for your own purpose. The html code is located in the `index.html` and the css (styling of website) is located in `assets/css`.
 
